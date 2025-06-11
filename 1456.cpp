@@ -1,3 +1,21 @@
+/*
+LeetCode 1456 – Maximum Number of Vowels in a Substring of Given Length
+-----------------------------------------------------------------------
+Problem (re-phrased):
+Given a string s and an integer k, find the maximum number of vowel
+characters in any substring of s with length exactly k.
+
+Input
+ • string s – 1 ≤ |s| ≤ 10⁵, consists of lowercase English letters.
+ • int k    – 1 ≤ k ≤ |s|.
+
+Output
+ • int – maximum number of vowels in any length-k substring.
+-----------------------------------------------------------------------
+*/
+#include <string>
+using namespace std;
+
 class Solution {
     public:
         int isVowel(char i){
@@ -14,7 +32,7 @@ class Solution {
             }
             int j=k-1;
             int max=cur;
-            while(j<s.length()){
+            while(j<s.size()){
                 ++j;
                 if(isVowel(s[j-k])) --cur;
                 if(isVowel(s[j])) ++cur;
@@ -55,4 +73,5 @@ class Solution {
 //             return maxVowelCount;
 //         }
 //     };
+    
     

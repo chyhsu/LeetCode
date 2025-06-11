@@ -1,3 +1,24 @@
+/*
+LeetCode 443 – String Compression
+---------------------------------
+Problem (re-phrased):
+Given an array of characters chars, compress it in-place: for each group
+of consecutive repeating characters, replace the group with the character
+followed by the group's length (written as individual digits).  The
+compressed string is written back into chars and the function returns the
+new length.
+
+Input
+ • vector<char>& chars – 1 ≤ |chars| ≤ 2000.
+
+Output
+ • int – length of the compressed string stored in chars.
+---------------------------------
+*/
+#include <vector>
+#include <string>
+using namespace std;
+
 class Solution {
     public:
         int compress(vector<char>& chars) {

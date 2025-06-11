@@ -1,4 +1,24 @@
-#include<string>
+/*
+LeetCode 1431 – Kids With the Greatest Number of Candies
+-------------------------------------------------------
+Problem (re-phrased):
+Given an array candies where candies[i] is the number of candies that the
+ith child has and an integer extraCandies, for each child determine
+whether they could have the greatest number of candies among all the
+children if they were given all extraCandies.  Return a vector<bool>
+with the answers.
+
+Input
+ • vector<int>& candies – 2 ≤ |candies| ≤ 100, 1 ≤ candies[i] ≤ 100.
+ • int extraCandies      – 1 ≤ extraCandies ≤ 50.
+
+Output
+ • vector<bool> – true/false for each child.
+-------------------------------------------------------
+*/
+#include <vector>
+#include <string>
+using namespace std;
 class Solution {
     public:
         int max(vector<int> candies){

@@ -1,3 +1,18 @@
+/*
+LeetCode 206 – Reverse Linked List
+----------------------------------
+Problem (re-phrased):
+Given the head of a singly-linked list, reverse the list in place and
+return the new head.
+
+Input
+ • ListNode* head – first node of the list (may be nullptr).
+
+Output
+ • ListNode* – head of the reversed list.
+----------------------------------
+*/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {

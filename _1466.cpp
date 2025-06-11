@@ -1,3 +1,24 @@
+/*
+LeetCode 1466 – Reorder Routes to Make All Paths Lead to the City Zero
+---------------------------------------------------------------------
+Problem synopsis (re-phrased):
+You are given an integer n (0 ≤ n ≤ 5 * 10⁴) that represents the number of
+cities labelled 0 … n-1, and a list of n – 1 directed roads.  If we ignore
+their orientation these roads form a tree: there is exactly one
+undirected path between any two cities.  Each road is written as
+[from, to] meaning it currently allows traffic only from 'from' to 'to'.
+
+Input
+ • int n                  – number of cities.
+ • vector<vector<int>> connections, size n – 1 where each element is
+   {from, to} with 0 ≤ from, to < n.
+
+Output
+ • Return an integer equal to the minimum number of roads whose direction
+   must be reversed so that after the changes every city has a directed
+   route that leads to city 0.
+---------------------------------------------------------------------
+*/
 #include <vector>
 #include <iostream>
 using namespace std;

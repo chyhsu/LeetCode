@@ -1,3 +1,20 @@
+/*
+LeetCode 345 – Reverse Vowels of a String
+---------------------------------------
+Problem (re-phrased):
+Given a string s, reverse only its vowels and return the resulting
+string.  The relative positions of the non-vowel characters must remain
+the same.
+
+Input
+ • string s – 1 ≤ |s| ≤ 3 × 10⁵.
+
+Output
+ • string – s with the vowels reversed.
+---------------------------------------
+*/
+#include <string>
+using namespace std;
 class Solution {
     public:
         

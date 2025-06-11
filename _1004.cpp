@@ -1,3 +1,19 @@
+/*
+LeetCode 1004 – Max Consecutive Ones III
+---------------------------------------
+Problem (re-phrased):
+Given a binary array nums and an integer k, return the length of the
+longest contiguous subarray that contains at most k zeros (you may flip
+at most k zeros to ones).
+
+Input
+ • vector<int>& nums – 1 ≤ |nums| ≤ 10⁵, nums[i] is 0 or 1.
+ • int k – 0 ≤ k ≤ |nums|.
+
+Output
+ • int – length of the longest subarray with at most k zeros.
+---------------------------------------
+*/
 #include <vector>
 #include <algorithm>
 

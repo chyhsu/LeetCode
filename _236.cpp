@@ -1,3 +1,20 @@
+/*
+LeetCode 236 – Lowest Common Ancestor of a Binary Tree
+-----------------------------------------------------
+Problem (re-phrased):
+Given a binary tree and two nodes p and q, find their lowest common
+ancestor (LCA) – the deepest node that has both p and q as descendants
+(where a node can be a descendant of itself).
+
+Input
+ • TreeNode* root – root of the binary tree.
+ • TreeNode* p    – first node.
+ • TreeNode* q    – second node.
+
+Output
+ • TreeNode* – lowest common ancestor of p and q.
+-----------------------------------------------------
+*/
 struct TreeNode {
     int val;
     TreeNode *left;

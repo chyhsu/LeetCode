@@ -1,13 +1,29 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+/*
+LeetCode 328 – Odd Even Linked List
+----------------------------------
+Problem (re-phrased):
+Rearrange a singly linked list so that all nodes at odd indices (1-based)
+come first followed by nodes at even indices, preserving their original
+relative order.  Return the head of the re-ordered list.
+
+Input
+ • ListNode* head – head of the singly-linked list (may be nullptr).
+
+Output
+ • ListNode* – head of the reorganized list.
+----------------------------------
+*/
+
+#include <iostream>
+using namespace std;
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+ 
 class Solution {
     public:
         ListNode* oddEvenList(ListNode* head) {

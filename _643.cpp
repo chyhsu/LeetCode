@@ -1,3 +1,23 @@
+/*
+LeetCode 643 – Maximum Average Subarray I
+----------------------------------------
+Problem (re-phrased):
+Given an integer array nums and an integer k, find the contiguous subarray
+of length k that has the maximum average value and return that average as
+a double.
+
+Input
+ • vector<int>& nums – 1 ≤ |nums| ≤ 3 × 10⁴, -10⁴ ≤ nums[i] ≤ 10⁴.
+ • int k – 1 ≤ k ≤ |nums|.
+
+Output
+ • double – maximum average value of any length-k subarray.
+----------------------------------------
+*/
+#include <vector>
+#include <algorithm>
+using namespace std;
+
 class Solution {
     public:
         double findMaxAverage(vector<int>& nums, int k) {

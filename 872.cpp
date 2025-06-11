@@ -1,4 +1,20 @@
+/*
+LeetCode 872 – Leaf-Similar Trees
+---------------------------------
+Problem (re-phrased):
+For two binary trees root1 and root2, traverse each tree from left to
+right collecting the values of its leaf nodes into a sequence.
+Return true if and only if the two sequences are identical.
 
+Input
+ • TreeNode* root1 – root of the first binary tree.
+ • TreeNode* root2 – root of the second binary tree.
+
+Output
+ • bool – true if the left-to-right leaf sequences are equal, false
+   otherwise.
+---------------------------------
+*/
 #include<vector>
 #include<algorithm>
 using namespace std;

@@ -1,4 +1,19 @@
+/*
+LeetCode 1161 – Maximum Level Sum of a Binary Tree
+-------------------------------------------------
+Problem (re-phrased):
+For each level of a binary tree, compute the sum of the node values on
+that level.  Return the level (1-indexed) that has the maximum sum; if
+multiple levels share the same largest sum, return the smallest level
+number.
 
+Input
+ • TreeNode* root – root of the binary tree (may be nullptr).
+
+Output
+ • int – 1-based level index with the maximum sum.
+-------------------------------------------------
+*/
 #include <queue>
 #include <climits>
 using namespace std;

@@ -1,3 +1,18 @@
+/*
+LeetCode 199 – Binary Tree Right Side View
+----------------------------------------
+Problem (re-phrased):
+Given the root of a binary tree, imagine standing on its right side and
+observing the nodes you can see from top to bottom.  Return the list of
+their values.
+
+Input
+ • TreeNode* root – root of the binary tree (may be nullptr).
+
+Output
+ • vector<int> – values of nodes visible from the right side.
+----------------------------------------
+*/
 #include <vector>
 using namespace std;
 

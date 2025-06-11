@@ -1,3 +1,20 @@
+/*
+LeetCode 437 – Path Sum III
+--------------------------
+Problem (re-phrased):
+Given the root of a binary tree and an integer targetSum, count
+all paths that start from any node, go downward, and whose node values
+sum to targetSum.  The path does not have to start at the root or end at
+a leaf.
+
+Input
+ • TreeNode* root – root of the binary tree.
+ • int targetSum  – target value (may be negative).
+
+Output
+ • int – total number of such paths.
+--------------------------
+*/
 #include <iostream>
 #include <vector>
 

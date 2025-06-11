@@ -1,3 +1,18 @@
+/*
+LeetCode 104 – Maximum Depth of Binary Tree
+------------------------------------------
+Problem (re-phrased):
+Given the root of a binary tree, compute the length of the longest path
+from the root down to any leaf (i.e. the tree's height counted in
+nodes).
+
+Input
+ • TreeNode* root – root of the binary tree (may be nullptr).
+
+Output
+ • int – maximum depth (0 if the tree is empty).
+------------------------------------------
+*/
 #include <iostream>
 using namespace std;
 

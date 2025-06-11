@@ -1,3 +1,22 @@
+/*
+LeetCode 1732 – Find the Highest Altitude
+----------------------------------------
+Problem (re-phrased):
+You are given a list gain where gain[i] is the net gain in altitude
+between point i and point i+1 on a bike trip starting at altitude 0.
+Return the highest altitude reached at any point of the trip (including
+starting point).
+
+Input
+ • vector<int>& gain – 1 ≤ |gain| ≤ 100, -100 ≤ gain[i] ≤ 100.
+
+Output
+ • int – maximum altitude reached.
+----------------------------------------
+*/
+#include <vector>
+using namespace std;
+
 class Solution {
     public:
         int largestAltitude(vector<int>& gain) {

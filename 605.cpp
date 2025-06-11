@@ -1,3 +1,25 @@
+/*
+LeetCode 605 – Can Place Flowers
+--------------------------------
+Problem (re-phrased):
+You are given an array flowerbed where flowerbed[i] is 1 if there is a
+flower in plot i and 0 otherwise, along with an integer n.  A new flower
+can be planted in a plot only if both neighboring plots are empty (or the
+plot is at the boundary).  Return true if n new flowers can be planted
+without violating the rule.
+
+Input
+ • vector<int>& flowerbed – 1 ≤ size ≤ 2 × 10⁴, values 0 or 1.
+ • int n – number of new flowers to plant.
+
+Output
+ • bool – true if n flowers can be planted, otherwise false.
+--------------------------------
+*/
+#include <vector>
+#include <cmath>
+using namespace std;
+
 class Solution {
     public:
         bool canPlaceFlowers(vector<int>& flowerbed, int n) {

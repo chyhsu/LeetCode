@@ -1,3 +1,19 @@
+/*
+LeetCode 841 – Keys and Rooms
+----------------------------
+Problem (re-phrased):
+There are n rooms numbered 0 … n-1.  Each room i contains a list of keys
+that grant entry to other rooms rooms[i].  Starting in room 0, determine
+whether it is possible to visit every room at least once.
+
+Input
+ • vector<vector<int>>& rooms – rooms[i] is the list of keys in room i;
+   1 ≤ n ≤ 1000, sum of key counts ≤ 3000.
+
+Output
+ • bool – true if all rooms can be visited, false otherwise.
+----------------------------
+*/
 #include <vector>
 #include <queue>
 using namespace std;

@@ -1,3 +1,20 @@
+/*
+LeetCode 450 – Delete Node in a BST
+----------------------------------
+Problem (re-phrased):
+Given the root of a Binary Search Tree and an integer key, delete the node
+with value key and return the root of the modified tree.  The BST property
+must be preserved.
+
+Input
+ • TreeNode* root – root of the BST (may be nullptr).
+ • int key        – value to remove from the tree.
+
+Output
+ • TreeNode* – root of the BST after deletion.
+----------------------------------
+*/
+
 struct TreeNode {
     int val;
     TreeNode *left;

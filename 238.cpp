@@ -1,3 +1,21 @@
+/*
+LeetCode 283 – Move Zeroes
+-------------------------
+Problem (re-phrased):
+Given an integer array nums, move all zeros to the end while preserving
+the relative order of the non-zero elements.  The operation must be done
+in-place with O(1) extra space.
+
+Input
+ • vector<int> nums – array of length 1 ≤ n ≤ 10⁴.
+
+Output
+ • The array is modified in place; no value is returned.
+-------------------------
+*/
+#include <vector>
+#include <algorithm>
+using namespace std;
 class Solution {
     public:
         void moveZeroes(vector<int>& nums) {

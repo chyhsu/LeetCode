@@ -1,5 +1,26 @@
 #include <vector>
 using namespace std;
+
+/*
+LeetCode 547 – Number of Provinces (a.k.a. Friend Circles)
+---------------------------------------------------------
+Problem (re-worded):
+Given an n × n binary matrix isConnected where isConnected[i][j] = 1
+signifies that city i and city j are directly linked by a road and
+isConnected[i][j] = 0 otherwise, any city is considered to belong to the
+same province as itself and every city that is reachable through a chain
+of direct connections.
+
+Input
+ • vector<vector<int>> isConnected – an n × n symmetric matrix with
+   1 ≤ n ≤ 200, where isConnected[i][i] = 1.
+
+Output
+ • Return the total number of provinces, i.e. the number of connected
+   components in the undirected graph induced by isConnected.
+---------------------------------------------------------
+*/
+
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {

@@ -1,3 +1,19 @@
+/*
+LeetCode 1372 – Longest ZigZag Path in a Binary Tree
+---------------------------------------------------
+Problem (re-phrased):
+A ZigZag path starts at any node and alternates between moving to a left
+child and a right child with each step.  Given the root of a binary tree,
+return the length (number of edges) of the longest ZigZag path in the
+tree.
+
+Input
+ • TreeNode* root – root of the binary tree.
+
+Output
+ • int – maximum ZigZag path length (edges count; 0 if root is nullptr).
+---------------------------------------------------
+*/
 struct TreeNode {
     int val;
     TreeNode *left;

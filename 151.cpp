@@ -1,4 +1,22 @@
+/*
+LeetCode 151 – Reverse Words in a String
+---------------------------------------
+Problem (re-phrased):
+Given a string s, reverse the order of its words.  A word is defined as a
+sequence of non-space characters.  The returned string must contain a
+single space between words and must not start or end with a space.
+
+Input
+ • string s – may contain leading, trailing, or multiple spaces.
+
+Output
+ • string – words in reverse order, trimmed and single-spaced.
+---------------------------------------
+*/
 #include <algorithm>
+#include <vector>
+#include <string>
+using namespace std;
 class Solution {
     public:
         std::vector<string> collector(string s){

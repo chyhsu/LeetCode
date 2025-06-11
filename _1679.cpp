@@ -1,3 +1,24 @@
+/*
+LeetCode 1679 – Max Number of K-Sum Pairs
+----------------------------------------
+Problem (re-phrased):
+Given an integer array nums and an integer k, you may choose pairs of
+numbers (nums[i], nums[j]) such that their sum equals k, and each index
+may be used at most once.  Return the maximum possible number of such
+pairs.
+
+Input
+ • vector<int>& nums – 1 ≤ |nums| ≤ 10⁵.
+ • int k – target sum.
+
+Output
+ • int – maximum number of disjoint pairs with sum k.
+----------------------------------------
+*/
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
 class Solution {
     public:
     int maxOperations(vector<int>& nums, int k) {
